@@ -53,6 +53,11 @@ echo <<<EOL
 <div style="display:flex;flex.direction:column;width:300px">
 <input name="nazwa" placeholder="Nazwa produktu">
 <input name="img" placeholder="url obrazu">
+<select name="category">
+  <option value="procesory">Procesory</option>
+  <option value="gpu">Karty Graficzne</option>
+  <option value="memory">Pamięci</option>
+</select>
 <input name="cena" placeholder="cena" type="number">
 <input name="add" type="submit" value="dodaj">
 </form>
